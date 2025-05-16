@@ -1,0 +1,57 @@
+/* Flex‑center wrapper */
+#landing-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Logo pop‑in */
+#landing-logo {
+  width: clamp(120px, 25vw, 240px);
+  height: auto;
+  animation: popIn 0.9s ease-out;
+}
+
+@keyframes popIn {
+  0%   { transform: scale(0.6); opacity: 0; }
+  100% { transform: scale(1);   opacity: 1; }
+}
+
+/* Greeting size */
+#greeting { font-size: clamp(2.5rem, 6vw, 5rem); margin-top: 1rem; }
+
+/* Time‑of‑day gradients & colors */
+body.morning   { background: linear-gradient(135deg,#f7f7f7 0%,#e1f3ff 100%); color: var(--mets-blue); }
+body.afternoon { background: linear-gradient(135deg,#fffaf0 0%,#ffe6cc 100%); color: var(--mets-blue); }
+body.evening   { background: linear-gradient(135deg,#001b44 0%,#003366 100%); color: #fff; }
+body.night     { background: linear-gradient(135deg,#000000 0%,#001b33 100%); color: #fff; }
+
+
+.badge-position   { color: white; }
+.badge-pos-D { background: #0038A8; }
+.badge-pos-LW { background: #CE1126; }
+.badge-pos-RW { background: #e05969; }
+.badge-pos-C { background: #5b8df1; }
+.badge-pos-G { background: #4d84f3; }
+
+
+
+.bgIMG {
+    background-color: #CE1126 ;
+}
+
+.navbar {
+    background-color: #0038A8;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}

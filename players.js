@@ -6,7 +6,7 @@ const players = [
         position: "RW",
         photo: 'imgs/abue-kubel.png',
         hasOver100Goals: false
-    }
+    },
   {
         firstName: "Artemi",
         lastName: "Panarin",
@@ -20,12 +20,15 @@ const players = [
         lastName: 'Zibanejad',
         age: 31,
         position: "C",
+        photo: 'imgs/Zibanejad.png',
         hasOver100Goals: true
     },
     {
-        firstName: "Adam Fox",
+        firstName: "Adam",
+        lastName: "Fox",
         age: 26,
         position: "D",
+        photo: 'imgs/fox.png',
         hasOver100Goals: false
     },
     {
@@ -69,27 +72,19 @@ const players = [
         hasOver100Goals: true
     },
     {
-        firstName: "Reilly Smith",
-        age: 33,
-        position: "RW",
-        hasOver100Goals: true
-    },
-    {
-        firstName: "K'Andre Miller",
+        firstName: "K'Andre",
+        lastName: "Miller",
         age: 25,
         position: "D",
+        photo: 'imgs/miller.png',
         hasOver100Goals: false
     },
     {
-        firstName: "Braden Schneider",
+        firstName: "Braden",
+        lastName: "Schneider",
         age: 23,
         position: "D",
-        hasOver100Goals: false
-    },
-    {
-        firstName: "Filip Chytil",
-        age: 25,
-        position: "C",
+        photo: 'imgs/Schneider.png',
         hasOver100Goals: false
     },
     {
@@ -101,12 +96,6 @@ const players = [
         hasOver100Goals: false
     },
     {
-        firstName: "Ryan Lindgren",
-        age: 26,
-        position: "D",
-        hasOver100Goals: false
-    },
-    {
         firstName: "Jonny",
         lastName: "Brodzinski",
         age: 31,
@@ -115,27 +104,27 @@ const players = [
         hasOver100Goals: false
     },
     {
-        firstName: "Urho Vaakanainen",
+        firstName: "Urho",
+        lastName: "Vaakanainen",
         age: 26,
         position: "D",
+        photo: 'imgs/Vaakanainen.png',
         hasOver100Goals: false
     },
     {
-        firstName: "Kaapo Kakko",
-        age: 23,
-        position: "RW",
-        hasOver100Goals: false
-    },
-    {
-        firstName: "William Borgen",
+        firstName: "William",
+        lastName: 'Borgen',
         age: 28,
         position: "D",
+        photo: 'imgs/Borgen.png',
         hasOver100Goals: false
     },
     {
-        firstName: "Zachary Jones",
+        firstName: "Zachary",
+        lastName: "Jones",
         age: 24,
         position: "D",
+        photo: 'imgs/Jones.png',
         hasOver100Goals: false
     },
     {
@@ -160,18 +149,6 @@ const players = [
         age: 22,
         position: "C",
         photo: 'imgs/Rempe.png',
-        hasOver100Goals: false
-    },
-    {
-        firstName: "Jimmy Vesey",
-        age: 31,
-        position: "LW",
-        hasOver100Goals: true
-    },
-    {
-        firstName: "Jacob Trouba",
-        age: 30,
-        position: "D",
         hasOver100Goals: false
     },
      {
@@ -206,4 +183,36 @@ const players = [
         photo: 'imgs/Perreault.png',
         hasOver100Goals: false
     },
+     {
+        firstName: "Calvin de",
+        lastName: "Hann",
+        age: 34,
+        position: "D",
+        photo: 'imgs/Hann.png',
+        hasOver100Goals: false
+    },
+     {
+        firstName: "Carson",
+        lastName: "Soucy",
+        age: 30,
+        position: "D",
+        photo: 'imgs/Soucy.png',
+        hasOver100Goals: false
+    },
+       {
+        firstName: "Jonathan",
+        lastName: "Quick",
+        age: 39,
+        position: "G",
+        photo: 'imgs/Quick.png',
+        hasOver100Goals: false
+    },
+       {
+        firstName: "Igor",
+        lastName: "Shesterkin",
+        age: 29,
+        position: "G",
+        photo: 'imgs/Shesterkin.png',
+        hasOver100Goals: false
+    }
 ]

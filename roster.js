@@ -36,5 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
 render(players)    
 })
