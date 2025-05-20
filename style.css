@@ -25,10 +25,10 @@
 #greeting { font-size: clamp(2.5rem, 6vw, 5rem); margin-top: 1rem; }
 
 /* Time‑of‑day gradients & colors */
-body.morning   { background: linear-gradient(135deg,#f7f7f7 0%,#e1f3ff 100%); color: var(--mets-blue); }
-body.afternoon { background: linear-gradient(135deg,#fffaf0 0%,#ffe6cc 100%); color: var(--mets-blue); }
-body.evening   { background: linear-gradient(135deg,#001b44 0%,#003366 100%); color: #fff; }
-body.night     { background: linear-gradient(135deg,#000000 0%,#001b33 100%); color: #fff; }
+body.morning   { background: linear-gradient(135deg,#f7f7f7 0%,#e1f3ff 100%); color: white; }
+body.afternoon { background: linear-gradient(135deg,#fffaf0 0%,#ffe6cc 100%); color: white; }
+body.evening   { background: linear-gradient(135deg,#001b44 0%,#003366 100%); color: white; }
+body.night     { background: linear-gradient(135deg,#000000 0%,#001b33 100%); color: white; }
 
 
 .badge-position   { color: white; }
@@ -41,7 +41,7 @@ body.night     { background: linear-gradient(135deg,#000000 0%,#001b33 100%); co
 
 
 .bgIMG {
-    background-color: #CE1126 ;
+  background-color: #CE1126 ;
 }
 
 .navbar {
@@ -52,6 +52,38 @@ body.night     { background: linear-gradient(135deg,#000000 0%,#001b33 100%); co
     color: white;
 }
 
+.nav-link:hover {
+    color: white;
+}
+
 .navbar-brand {
     color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#rosterGrid {
+  margin: 10px;
+}
+
+.card-title {
+  font-family: "agency-fb", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.card {
+  border: 2px solid #0038A8;
+}
+
+.card:hover {
+  border: 2px solid #CE1126;
+  transform: translateY(-2px);
+}
+
+iframe {
+  height: 755px;
+  width: 1950px;
 }
