@@ -113,38 +113,38 @@ h1 {
   text-align: center;
 }
 
+
+
+
 .calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 5px;
-  margin-top: 20px;
+  width: 100%;
+  margin: auto;
+  font-family: Arial, sans-serif;
 }
 
-.day {
-  font-weight: bold;
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calendar-table th, .calendar-table td {
+  width: 14.28%;
+  height: 80px;
   text-align: center;
-  padding: 10px;
-  background-color: #f0f0f0;
-}
-
-.date {
+  vertical-align: top;
   border: 1px solid #ccc;
-  min-height: 100px;
-  padding: 5px;
-  position: relative;
 }
 
-.date-number {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  font-weight: bold;
+.game-win {
+  background-color: #c8e6c9; /* Light green */
 }
 
-.game {
-  margin-top: 20px;
-  font-size: 0.9em;
-  background-color: #e0f7fa;
-  padding: 5px;
-  border-radius: 5px;
+.game-loss {
+  background-color: #ffcdd2; /* Light red */
 }
